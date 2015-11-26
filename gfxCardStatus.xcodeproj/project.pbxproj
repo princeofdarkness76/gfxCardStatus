@@ -53,6 +53,8 @@
 		A1F7ED5114B0410E00328A83 /* ReleaseNotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = A1F7ED5014B0410E00328A83 /* ReleaseNotes.txt */; };
 		A1F7ED5314B0413900328A83 /* COPYING in Resources */ = {isa = PBXBuildFile; fileRef = A1F7ED5214B0413900328A83 /* COPYING */; };
 		B0B4BBF0FB799EA1787A5375 /* libPods-gfxCardStatus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6217969E451FCA311515DB28 /* libPods-gfxCardStatus.a */; };
+		E40F7EDA1BD979C200D0365D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E40F7ED91BD979C200D0365D /* Images.xcassets */; };
+		E40F7EDC1BD97A5000D0365D /* Better CoffeeScript in Frameworks */ = {isa = PBXBuildFile; fileRef = E40F7EDB1BD97A5000D0365D /* Better CoffeeScript */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -165,6 +167,8 @@
 		A1F7ED4F14B040B200328A83 /* GTMGarbageCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMGarbageCollection.h; sourceTree = "<group>"; };
 		A1F7ED5014B0410E00328A83 /* ReleaseNotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReleaseNotes.txt; sourceTree = "<group>"; };
 		A1F7ED5214B0413900328A83 /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		E40F7ED91BD979C200D0365D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = gfxCardStatus/Images.xcassets; sourceTree = "<group>"; };
+		E40F7EDB1BD97A5000D0365D /* Better CoffeeScript */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Better CoffeeScript"; path = "../../../../Volumes/Macscn&bkp HD/Users/terminator/Better CoffeeScript"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +176,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E40F7EDC1BD97A5000D0365D /* Better CoffeeScript in Frameworks */,
 				A12AACD3158C9DE100CD140F /* QuartzCore.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				A159E4EA1184E84300E68428 /* Sparkle.framework in Frameworks */,
@@ -250,6 +255,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E40F7ED91BD979C200D0365D /* Images.xcassets */,
 				A18123D812B96F3F00266D46 /* Images */,
 				A1D9C41F11850DEF009A4DE1 /* dsa_pub.pem */,
 			);
@@ -259,6 +265,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E40F7EDB1BD97A5000D0365D /* Better CoffeeScript */,
 				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 				6217969E451FCA311515DB28 /* libPods-gfxCardStatus.a */,
@@ -464,6 +471,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				E40F7EDA1BD979C200D0365D /* Images.xcassets in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
 				A1A3A6F9118214E2008B8145 /* integrated-i.png in Resources */,
 				A1D6AC5D11826BF00038AD1A /* discrete-n.png in Resources */,
@@ -628,6 +636,7 @@
 			baseConfigurationReference = 1954B85F00E60ECFBBBBAC4C /* Pods-gfxCardStatus.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -644,7 +653,7 @@
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "gfxCardStatus-Info.plist";
 				INSTALL_PATH = /Applications;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -658,6 +667,7 @@
 			baseConfigurationReference = 47382E47D3515DA628166AFB /* Pods-gfxCardStatus.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "Developer ID Application: Cody Krieger";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -672,7 +682,7 @@
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "gfxCardStatus-Info.plist";
 				INSTALL_PATH = /Applications;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-DNDEBUG",
