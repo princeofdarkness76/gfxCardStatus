@@ -1,0 +1,167 @@
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnopsabi failed with the following output:
+Change Dir: /Users/stevenjames/Documents/build-directory/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_8528e/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_8528e.dir/build.make CMakeFiles/cmTC_8528e.dir/build
+gmake[1]: Entering directory '/Users/stevenjames/Documents/build-directory/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8528e.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wshadow -DCOMPILER_SUPPORT_Wnopsabi -Werror   -Wno-psabi -o CMakeFiles/cmTC_8528e.dir/src.cxx.o -c /Users/stevenjames/Documents/build-directory/CMakeFiles/CMakeTmp/src.cxx
+error: unknown warning option '-Wno-psabi' [-Werror,-Wunknown-warning-option]
+CMakeFiles/cmTC_8528e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8528e.dir/src.cxx.o' failed
+gmake[1]: *** [CMakeFiles/cmTC_8528e.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/Users/stevenjames/Documents/build-directory/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8528e/fast' failed
+gmake: *** [cmTC_8528e/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd981 failed with the following output:
+Change Dir: /Users/stevenjames/Documents/build-directory/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_46169/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_46169.dir/build.make CMakeFiles/cmTC_46169.dir/build
+gmake[1]: Entering directory '/Users/stevenjames/Documents/build-directory/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_46169.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wshadow -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_wd981 -Werror   -wd981 -o CMakeFiles/cmTC_46169.dir/src.cxx.o -c /Users/stevenjames/Documents/build-directory/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-wd981'
+CMakeFiles/cmTC_46169.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_46169.dir/src.cxx.o' failed
+gmake[1]: *** [CMakeFiles/cmTC_46169.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/Users/stevenjames/Documents/build-directory/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_46169/fast' failed
+gmake: *** [cmTC_46169/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd2304 failed with the following output:
+Change Dir: /Users/stevenjames/Documents/build-directory/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_9f00c/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_9f00c.dir/build.make CMakeFiles/cmTC_9f00c.dir/build
+gmake[1]: Entering directory '/Users/stevenjames/Documents/build-directory/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9f00c.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wshadow -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_wd2304 -Werror   -wd2304 -o CMakeFiles/cmTC_9f00c.dir/src.cxx.o -c /Users/stevenjames/Documents/build-directory/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-wd2304'
+CMakeFiles/cmTC_9f00c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_9f00c.dir/src.cxx.o' failed
+gmake[1]: *** [CMakeFiles/cmTC_9f00c.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/Users/stevenjames/Documents/build-directory/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9f00c/fast' failed
+gmake: *** [cmTC_9f00c/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_STRICTANSI failed with the following output:
+Change Dir: /Users/stevenjames/Documents/build-directory/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_f417a/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_f417a.dir/build.make CMakeFiles/cmTC_f417a.dir/build
+gmake[1]: Entering directory '/Users/stevenjames/Documents/build-directory/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f417a.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wshadow -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_STRICTANSI -Werror   -strict-ansi -o CMakeFiles/cmTC_f417a.dir/src.cxx.o -c /Users/stevenjames/Documents/build-directory/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-strict-ansi'
+CMakeFiles/cmTC_f417a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_f417a.dir/src.cxx.o' failed
+gmake[1]: *** [CMakeFiles/cmTC_f417a.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/Users/stevenjames/Documents/build-directory/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f417a/fast' failed
+gmake: *** [cmTC_f417a/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Determining if the Q_WS_X11 exist failed with the following output:
+Change Dir: /Users/stevenjames/Documents/build-directory/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_8dddd/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_8dddd.dir/build.make CMakeFiles/cmTC_8dddd.dir/build
+gmake[1]: Entering directory '/Users/stevenjames/Documents/build-directory/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8dddd.dir/CheckSymbolExists.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -I/usr/local/Cellar/qt/4.8.7_1/include -F/usr/local/Cellar/qt/4.8.7_1/lib  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wshadow -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Qunused-arguments -ansi    -o CMakeFiles/cmTC_8dddd.dir/CheckSymbolExists.cxx.o -c /Users/stevenjames/Documents/build-directory/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/Users/stevenjames/Documents/build-directory/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: use of undeclared identifier 'Q_WS_X11'
+  return ((int*)(&Q_WS_X11))[argc];
+                  ^
+1 error generated.
+CMakeFiles/cmTC_8dddd.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8dddd.dir/CheckSymbolExists.cxx.o' failed
+gmake[1]: *** [CMakeFiles/cmTC_8dddd.dir/CheckSymbolExists.cxx.o] Error 1
+gmake[1]: Leaving directory '/Users/stevenjames/Documents/build-directory/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8dddd/fast' failed
+gmake: *** [cmTC_8dddd/fast] Error 2
+
+File /Users/stevenjames/Documents/build-directory/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_X11
+  return ((int*)(&Q_WS_X11))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /Users/stevenjames/Documents/build-directory/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_8a172/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_8a172.dir/build.make CMakeFiles/cmTC_8a172.dir/build
+gmake[1]: Entering directory '/Users/stevenjames/Documents/build-directory/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8a172.dir/CheckSymbolExists.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -I/usr/local/Cellar/qt/4.8.7_1/include -F/usr/local/Cellar/qt/4.8.7_1/lib  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wshadow -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Qunused-arguments -ansi    -o CMakeFiles/cmTC_8a172.dir/CheckSymbolExists.cxx.o -c /Users/stevenjames/Documents/build-directory/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/Users/stevenjames/Documents/build-directory/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: use of undeclared identifier 'Q_WS_WIN'
+  return ((int*)(&Q_WS_WIN))[argc];
+                  ^
+1 error generated.
+CMakeFiles/cmTC_8a172.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8a172.dir/CheckSymbolExists.cxx.o' failed
+gmake[1]: *** [CMakeFiles/cmTC_8a172.dir/CheckSymbolExists.cxx.o] Error 1
+gmake[1]: Leaving directory '/Users/stevenjames/Documents/build-directory/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8a172/fast' failed
+gmake: *** [cmTC_8a172/fast] Error 2
+
+File /Users/stevenjames/Documents/build-directory/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /Users/stevenjames/Documents/build-directory/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_efc40/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_efc40.dir/build.make CMakeFiles/cmTC_efc40.dir/build
+gmake[1]: Entering directory '/Users/stevenjames/Documents/build-directory/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_efc40.dir/CheckSymbolExists.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -I/usr/local/Cellar/qt/4.8.7_1/include -F/usr/local/Cellar/qt/4.8.7_1/lib  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wshadow -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Qunused-arguments -ansi    -o CMakeFiles/cmTC_efc40.dir/CheckSymbolExists.cxx.o -c /Users/stevenjames/Documents/build-directory/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/Users/stevenjames/Documents/build-directory/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: use of undeclared identifier 'Q_WS_QWS'
+  return ((int*)(&Q_WS_QWS))[argc];
+                  ^
+1 error generated.
+CMakeFiles/cmTC_efc40.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_efc40.dir/CheckSymbolExists.cxx.o' failed
+gmake[1]: *** [CMakeFiles/cmTC_efc40.dir/CheckSymbolExists.cxx.o] Error 1
+gmake[1]: Leaving directory '/Users/stevenjames/Documents/build-directory/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_efc40/fast' failed
+gmake: *** [cmTC_efc40/fast] Error 2
+
+File /Users/stevenjames/Documents/build-directory/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
