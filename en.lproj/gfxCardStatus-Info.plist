@@ -18,7 +18,7 @@
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
 	<string>2.3</string>
-	<key>CFBundleSignature</key>
+	<key>NSHumanReadableCopyright</key>
 	<string>????</string>
 	<key>CFBundleURLTypes</key>
 	<array/>
@@ -30,8 +30,6 @@
 	<string>${MACOSX_DEPLOYMENT_TARGET}</string>
 	<key>LSUIElement</key>
 	<true/>
-	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2010-2012 Cody Krieger and contributors.</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
