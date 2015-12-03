@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:cfg.h">
+   </FileRef>
+   <FileRef
+      location = "group:Unsaved Xcode Document 2.xcworkspace">
+   </FileRef>
+   <FileRef
+      location = "group:Unsaved Xcode Document 3.xcworkspace">
+   </FileRef>
+   <FileRef
+      location = "group:Unsaved Xcode Document.xcworkspace">
+   </FileRef>
+   <FileRef
+      location = "group:com.apple.dt.Xcode.plist">
+   </FileRef>
+   <FileRef
+      location = "group:cfg.m">
+   </FileRef>
+</Workspace>
