@@ -1,0 +1,5 @@
+export AWS_ACCESS_KEY="<Your AWS Access ID>"
+  export AWS_SECRET_KEY="<Your AWS Secret Key>"
+  export AWS_CREDENTIAL_FILE="<Path to the credentials file>"
+
+source /usr/local/opt/autoenv/activate.sh
